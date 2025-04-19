@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Backpack.hpp" />
     <ClInclude Include="Bush.hpp" />
     <ClInclude Include="Fetus.hpp" />
     <ClInclude Include="FetusForest.hpp" />
@@ -136,7 +137,13 @@
     <ClInclude Include="Tree.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Backpack.cpp" />
+    <ClCompile Include="Bush.cpp" />
+    <ClCompile Include="Fetus.cpp" />
+    <ClCompile Include="FetusForest.cpp" />
     <ClCompile Include="HangedFetusCompact.hpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

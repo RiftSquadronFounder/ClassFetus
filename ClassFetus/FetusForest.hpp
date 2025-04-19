@@ -3,9 +3,18 @@
 
 
 #include "Fetus.hpp"
+#include "Tree.hpp"
+#include <vector>
+#include <random>
+
 
 class FetusForest {
+private:
+	std::vector<Tree> Trees_;
 
+public:
+	FetusForest(int amountOfTrees);
+	FetusForest();
 };
 
 

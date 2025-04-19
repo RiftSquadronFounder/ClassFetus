@@ -6,7 +6,8 @@
 
 class Tree : Plant
 {
-private:
+
+public:
 	enum TreeType {
 		DEFAULT,
 		APPLE_TREE,
@@ -15,16 +16,12 @@ private:
 		SPRUCE,
 		PINE
 	};
-	TreeType treeType;
-public:
-	Tree() {
-		treeType = DEFAULT;
-	}
-	Tree() {
-
-	}
+	Tree();
+	Tree(std::string name, float height, Fetus typeOfFetus, TreeType treeType);
+	Tree(std::string name, float height, std::vector<Fetus> fetusesList, Fetus typeOfFetus, TreeType treeType);
 	
-
+private:
+	TreeType treeType_;
 
 };
 
